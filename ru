@@ -899,7 +899,7 @@ xkb_symbols "ruu" {
     key <AE05> { [ 5,     percent,        degree,    permille  ] };
     key <AE06> { [ 6,       colon,        less, lessthanequal  ] };
     key <AE07> { [ 7,    question,  greater, greaterthanequal  ] };
-    key <AE08> { [ 8,    asterisk,enfilledcircbullet,multiply  ] };
+    key <AE08> { [ 8,    asterisk, enfilledcircbullet, multiply  ] };
     key <AE09> { [ 9,   parenleft,   bracketleft,   braceleft  ] };
     key <AE10> { [ 0,  parenright,  bracketright,  braceright  ] };
     key <AE11> { [ minus,  underscore,        emdash,      endash  ] };
@@ -909,7 +909,7 @@ xkb_symbols "ruu" {
     key <AD02> { [ Cyrillic_tse, U045F ] };
     key <AD03> { [ Cyrillic_u, U04F1 ] };
     key <AD04> { [ Cyrillic_ka, U046F ] };
-    key <AD05> { [ U0463 ] };
+    key <AD05> { [ U0454 ] };
     key <AD07> { [ Cyrillic_ghe ] };
     key <AD09> { [ U045B, U0452 ] };
     key <AD10> { [ Cyrillic_ze, UA641] };
@@ -922,10 +922,10 @@ xkb_symbols "ruu" {
     key <AC04> { [ Cyrillic_a, U04D3 ] };
     key <AC05> { [ Cyrillic_pe, U0471 ] };
     key <AC07> { [ Cyrillic_o, U04E7, U0461] };
-    key <AC11> { [ U0454 ] };
-    key <BKSL> { [ U0300 ] };
+    key <AC11> { [ U0455, UA643 ] };
+    key <BKSL> { [ U0300, U0301, bar ] };
 
-    key <AB01> { [ U0455, UA643 ] };
+    key <AB01> { [ U0463 ] };
     key <AB02> { [ Cyrillic_che, U0481 ] };
     key <AB03> { [ Cyrillic_es, U0461 ] };
     key <AB04> { [ Cyrillic_em, quotedbl ] };
